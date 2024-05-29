@@ -1,0 +1,64 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "joviolin.com",
+    "description": "",
+    "home_page_url": "https://www.joviolin.com",
+    "feed_url": "https://www.joviolin.com/feed.json",
+    "user_comment": "",
+    "icon": "https://www.joviolin.com/media/website/Woaw-2.png",
+    "author": {
+        "name": "jofanny"
+    },
+    "items": [
+        {
+            "id": "https://www.joviolin.com/algoritma-singlepath/",
+            "url": "https://www.joviolin.com/algoritma-singlepath/",
+            "title": "Algoritma Singlepath ",
+            "summary": "Berikut adalah contoh implementasi Antrian dengan Algoritma Singlepath #include &lt;iostream&gt; #include &lt;vector&gt; #include &lt;cstdlib&gt; using namespace std; #define N 5 #define M 1000 struct Graph&hellip;",
+            "content_html": "<p>Berikut adalah contoh implementasi Antrian dengan Algoritma Singlepath</p>\n<pre><br>#include &lt;iostream&gt;<br><br>#include &lt;vector&gt;<br><br>#include &lt;cstdlib&gt;<br><br>using namespace std;<br><br>#define N 5<br><br>#define M 1000<br><br>struct Graph {<br><br>    int V;<br><br>    vector&lt;vector&lt;int &gt; &gt; adj;<br><br>};<br><br>typedef struct {<br><br>    int item[N];<br><br>    int front;<br><br>    int rear;<br><br>    int count;<br><br>} Queue;<br><br>Graph createGraph() {<br><br>    Graph graph;<br><br>    graph.V = N;<br><br>    graph.adj.resize(N, vector&lt;int&gt;(N, M));<br><br>    return graph;<br><br>}<br><br>void initialize(int asal, int Beban[], int Rute[]) {<br><br>    for (int i = 0; i &lt; N; i++) {<br><br>        if (i + 1 == asal)<br><br>            Beban[i] = 0;<br><br>        else<br><br>            Beban[i] = M;<br><br>        Rute[i] = 0;<br><br>    }<br><br>}<br><br>void display(int Beban[], int Rute[]) {<br><br>    cout &lt;&lt; \"Beban: \";<br><br>    for (int i = 0; i &lt; N; i++) {<br><br>        if (Beban[i] &gt;= M)<br><br>            cout &lt;&lt; \"M \";<br><br>        else<br><br>            cout &lt;&lt; Beban[i] &lt;&lt; \" \";<br><br>    }<br><br>    cout &lt;&lt; endl;<br><br>    cout &lt;&lt; \"Rute : \";<br><br>    for (int i = 0; i &lt; N; i++) {<br><br>        cout &lt;&lt; Rute[i] &lt;&lt; \" \";<br><br>    }<br><br>    cout &lt;&lt; endl;<br><br>}<br><br>void inisialisasi_queue(Queue *q) {<br><br>    q-&gt;front = q-&gt;rear = q-&gt;count = 0;<br><br>}<br><br>int Kosong(Queue *q) {<br><br>    return q-&gt;count == 0;<br><br>}<br><br>int Penuh(Queue *q) {<br><br>    return q-&gt;count == N;<br><br>}<br><br>void Enqueue(Queue *q, int x) {<br><br>    if (Penuh(q)) {<br><br>        cout &lt;&lt; \"Queue Penuh !\" &lt;&lt; endl;<br><br>        exit(1);<br><br>    } else {<br><br>        q-&gt;item[q-&gt;rear] = x;<br><br>        q-&gt;rear = (q-&gt;rear + 1) % N;<br><br>        q-&gt;count++;<br><br>    }<br><br>}<br><br>int Dequeue(Queue *q) {<br><br>    int temp;<br><br>    if (Kosong(q)) {<br><br>        cout &lt;&lt; \"Queue kosong !\" &lt;&lt; endl;<br><br>        temp = -1;<br><br>    } else {<br><br>        temp = q-&gt;item[q-&gt;front];<br><br>        q-&gt;front = (q-&gt;front + 1) % N;<br><br>        q-&gt;count--;<br><br>    }<br><br>    return temp;<br><br>}<br><br>int main() {<br><br>    int asal, tujuan;<br><br>    cout &lt;&lt; \"Masukkan node asal : \";<br><br>    cin &gt;&gt; asal;<br><br>    cout &lt;&lt; \"Masukkan node tujuan : \";<br><br>    cin &gt;&gt; tujuan;<br><br>    Graph G = createGraph();<br><br>    int Beban[N], Rute[N];<br><br>    initialize(asal, Beban, Rute);<br><br>    cout &lt;&lt; \"Beban dan Rute awal\\n\";<br><br>    display(Beban, Rute);<br><br>    Queue q;<br><br>    inisialisasi_queue(&amp;q);<br><br>    Enqueue(&amp;q, 1);<br><br>    Enqueue(&amp;q, 2);<br><br>    Enqueue(&amp;q, 3);<br><br>    cout &lt;&lt; \"Elemen yang di-dequeue: \" &lt;&lt; Dequeue(&amp;q) &lt;&lt; endl;<br><br>    cout &lt;&lt; \"Elemen yang di-dequeue: \" &lt;&lt; Dequeue(&amp;q) &lt;&lt; endl;<br><br>    return 0;<br><br><span style=\"color: #000000;\">}</span></pre>",
+            "author": {
+                "name": "jofanny"
+            },
+            "tags": [
+                   "code",
+                   "algoritma"
+            ],
+            "date_published": "2024-05-30T01:31:11+07:00",
+            "date_modified": "2024-05-30T01:31:21+07:00"
+        },
+        {
+            "id": "https://www.joviolin.com/artwork-ive-done-over-the-years/",
+            "url": "https://www.joviolin.com/artwork-ive-done-over-the-years/",
+            "title": "Artwork I&#x27;ve Done Over The Years",
+            "content_html": "<figure class=\"post__image\"><img  src=\"https://www.joviolin.com/media/posts/4/nttt.png\" alt=\"\" width=\"372\" height=\"279\" sizes=\"(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)\" srcset=\"https://www.joviolin.com/media/posts/4/responsive/nttt-xs.png 300w ,https://www.joviolin.com/media/posts/4/responsive/nttt-sm.png 480w ,https://www.joviolin.com/media/posts/4/responsive/nttt-md.png 768w ,https://www.joviolin.com/media/posts/4/responsive/nttt-lg.png 1024w\"></figure> <figure class=\"post__image\"><img loading=\"lazy\"  style=\"color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;\" src=\"https://www.joviolin.com/media/posts/4/pretty-4.png\" alt=\"\" width=\"297\" height=\"278\" sizes=\"(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)\" srcset=\"https://www.joviolin.com/media/posts/4/responsive/pretty-4-xs.png 300w ,https://www.joviolin.com/media/posts/4/responsive/pretty-4-sm.png 480w ,https://www.joviolin.com/media/posts/4/responsive/pretty-4-md.png 768w ,https://www.joviolin.com/media/posts/4/responsive/pretty-4-lg.png 1024w\"></figure>\n<figure class=\"post__image align-center\"><img loading=\"lazy\"  src=\"https://www.joviolin.com/media/posts/4/mushr.png\" alt=\"\" width=\"384\" height=\"256\" sizes=\"(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)\" srcset=\"https://www.joviolin.com/media/posts/4/responsive/mushr-xs.png 300w ,https://www.joviolin.com/media/posts/4/responsive/mushr-sm.png 480w ,https://www.joviolin.com/media/posts/4/responsive/mushr-md.png 768w ,https://www.joviolin.com/media/posts/4/responsive/mushr-lg.png 1024w\"></figure>\n<figure class=\"post__image\"><img  src=\"https://www.joviolin.com/media/posts/4/scarab-2.png\" alt=\"\" width=\"343\" height=\"240\" sizes=\"(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)\" srcset=\"https://www.joviolin.com/media/posts/4/responsive/scarab-2-xs.png 300w ,https://www.joviolin.com/media/posts/4/responsive/scarab-2-sm.png 480w ,https://www.joviolin.com/media/posts/4/responsive/scarab-2-md.png 768w ,https://www.joviolin.com/media/posts/4/responsive/scarab-2-lg.png 1024w\"></figure> <figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://www.joviolin.com/media/posts/4/yahoo.png\" alt=\"\" width=\"318\" height=\"239\" sizes=\"(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)\" srcset=\"https://www.joviolin.com/media/posts/4/responsive/yahoo-xs.png 300w ,https://www.joviolin.com/media/posts/4/responsive/yahoo-sm.png 480w ,https://www.joviolin.com/media/posts/4/responsive/yahoo-md.png 768w ,https://www.joviolin.com/media/posts/4/responsive/yahoo-lg.png 1024w\"></figure>",
+            "author": {
+                "name": "jofanny"
+            },
+            "tags": [
+                   "art"
+            ],
+            "date_published": "2024-05-30T00:25:17+07:00",
+            "date_modified": "2024-05-30T00:35:26+07:00"
+        },
+        {
+            "id": "https://www.joviolin.com/my-first-post/",
+            "url": "https://www.joviolin.com/my-first-post/",
+            "title": "My First Post!",
+            "summary": "This is a test, hopefully this works better than others!",
+            "content_html": "<p>This is a test, hopefully this works better than others!</p>",
+            "author": {
+                "name": "jofanny"
+            },
+            "tags": [
+                   "sistem-multimedia",
+                   "matematika-diskrit",
+                   "code",
+                   "bahasa-inggris",
+                   "art",
+                   "algoritma"
+            ],
+            "date_published": "2024-05-29T22:48:52+07:00",
+            "date_modified": "2024-05-29T23:58:53+07:00"
+        }
+    ]
+}
