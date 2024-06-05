@@ -6,9 +6,13 @@
 </url>
 <url>
 <loc>https://www.joviolin.com/about/</loc>
-<lastmod>2024-05-30T00:21:07+07:00</lastmod>
+<lastmod>2024-06-05T20:50:37+07:00</lastmod>
 <image:image>
-<image:loc>https://www.joviolin.com/media/posts/2/my-face-2.png</image:loc>
+<image:loc>https://www.joviolin.com/media/posts/2/first-face.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://www.joviolin.com/media/posts/2/2nd-face.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -47,5 +51,9 @@
 <url>
 <loc>https://www.joviolin.com/privacy-policy/</loc>
 <lastmod>2024-05-30T00:00:49+07:00</lastmod>
+</url>
+<url>
+<loc>https://www.joviolin.com/tipe-tipe-format-video/</loc>
+<lastmod>2024-06-05T21:00:30+07:00</lastmod>
 </url>
 </urlset>

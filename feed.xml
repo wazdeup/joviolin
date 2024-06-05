@@ -3,12 +3,46 @@
     <title>joviolin.com</title>
     <link href="https://www.joviolin.com/feed.xml" rel="self" />
     <link href="https://www.joviolin.com" />
-    <updated>2024-05-30T01:31:21+07:00</updated>
+    <updated>2024-06-05T21:00:30+07:00</updated>
     <author>
         <name>jofanny</name>
     </author>
     <id>https://www.joviolin.com</id>
 
+    <entry>
+        <title>Tipe-Tipe Format Video</title>
+        <author>
+            <name>jofanny</name>
+        </author>
+        <link href="https://www.joviolin.com/tipe-tipe-format-video/"/>
+        <id>https://www.joviolin.com/tipe-tipe-format-video/</id>
+            <category term="sistem-multimedia"/>
+
+        <updated>2024-06-05T20:56:46+07:00</updated>
+            <summary>
+                <![CDATA[
+                    .WMV .MTS .AVI .3GP .FLV .MP4 .3G2 .MKV .MOV .OGG .OGV .M2V
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <ol>
+<li><a href="https://www.joviolin.com/null" target="_blank" rel="noopener noreferrer"></a><a href="https://www.joviolin.com/Kitbull  Pixar SparkShorts.wmv" target="_blank" rel="noopener noreferrer">.WMV </a></li>
+<li><a href="https://www.joviolin.com/Kitbull_Pixar_SparkShorts.avchd.mts" target="_blank" rel="noopener noreferrer">.MTS</a></li>
+<li><a href="https://www.joviolin.com/Kitbull  Pixar SparkShorts.avi" target="_blank" rel="noopener noreferrer">.AVI</a></li>
+<li><a href="https://www.joviolin.com/Kitbull Pixar SparkShorts.3gp" target="_blank" rel="noopener noreferrer">.3GP</a></li>
+<li><a href="https://www.joviolin.com/Kitbull  Pixar SparkShorts.flv" target="_blank" rel="noopener noreferrer">.FLV</a></li>
+<li><a href="https://www.joviolin.com/Kitbull  Pixar SparkShorts.mp4" target="_blank" rel="noopener noreferrer">.MP4</a></li>
+<li><a href="https://www.joviolin.com/Kitbull_Pixar_SparkShorts.3g2" target="_blank" rel="noopener noreferrer">.3G2</a></li>
+<li><a href="https://www.joviolin.com/Kitbull  Pixar SparkShorts.mkv" target="_blank" rel="noopener noreferrer">.MKV</a></li>
+<li><a href="https://www.joviolin.com/Kitbull  Pixar SparkShorts.mov" target="_blank" rel="noopener noreferrer">.MOV</a></li>
+<li><a href="https://www.joviolin.com/Kitbull Pixar SparkShorts.ogg" target="_blank" rel="noopener noreferrer">.OGG</a></li>
+<li><a href="https://www.joviolin.com/Kitbull Pixar SparkShorts.ogv" target="_blank" rel="noopener noreferrer">.OGV</a></li>
+<li><a href="https://www.joviolin.com/kitbull-pixar-sparkshorts.m2v" target="_blank" rel="noopener noreferrer">.M2V</a></li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Algoritma Singlepath </title>
         <author>
