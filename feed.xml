@@ -3,12 +3,36 @@
     <title>joviolin.com</title>
     <link href="https://www.joviolin.com/feed.xml" rel="self" />
     <link href="https://www.joviolin.com" />
-    <updated>2024-06-05T21:00:30+07:00</updated>
+    <updated>2024-06-06T09:39:34+07:00</updated>
     <author>
         <name>jofanny</name>
     </author>
     <id>https://www.joviolin.com</id>
 
+    <entry>
+        <title>Tugas Video Tutorial</title>
+        <author>
+            <name>jofanny</name>
+        </author>
+        <link href="https://www.joviolin.com/tugas-video-tutorial/"/>
+        <id>https://www.joviolin.com/tugas-video-tutorial/</id>
+            <category term="sistem-multimedia"/>
+            <category term="art"/>
+
+        <updated>2024-06-06T09:39:20+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Video Menjelaskan Cara Menggambar Otot! Maaf jika video kualitasnya tidak layak wkwk
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <figure></figure>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/bfB03dYwAEA" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<p>Video Menjelaskan Cara Menggambar Otot! Maaf jika video kualitasnya tidak layak wkwk</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Tipe-Tipe Format Video</title>
         <author>

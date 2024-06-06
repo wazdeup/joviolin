@@ -11,6 +11,22 @@
     },
     "items": [
         {
+            "id": "https://www.joviolin.com/tugas-video-tutorial/",
+            "url": "https://www.joviolin.com/tugas-video-tutorial/",
+            "title": "Tugas Video Tutorial",
+            "summary": "Video Menjelaskan Cara Menggambar Otot! Maaf jika video kualitasnya tidak layak wkwk",
+            "content_html": "<figure></figure>\n<figure class=\"post__video\"><iframe loading=\"lazy\" width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/bfB03dYwAEA\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></figure>\n<p>Video Menjelaskan Cara Menggambar Otot! Maaf jika video kualitasnya tidak layak wkwk</p>",
+            "author": {
+                "name": "jofanny"
+            },
+            "tags": [
+                   "sistem-multimedia",
+                   "art"
+            ],
+            "date_published": "2024-06-06T09:39:20+07:00",
+            "date_modified": "2024-06-06T09:39:34+07:00"
+        },
+        {
             "id": "https://www.joviolin.com/tipe-tipe-format-video/",
             "url": "https://www.joviolin.com/tipe-tipe-format-video/",
             "title": "Tipe-Tipe Format Video",
